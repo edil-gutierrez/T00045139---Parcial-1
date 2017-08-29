@@ -1,7 +1,31 @@
 //En Consola antes de entrar al servidor llave_cloud.txt
 
-chmod 0600 + lINK del TXT
+chmod 0600 +(lINK del TXT)
 
 // para entrar al servidor 
 
-ssh -i +Link del txt ubuntu@+ip del servidor
+ssh -i +Link del txt ubuntu@+(ip del servidor)
+
+//dentro del servidor
+
+docker run --name +(nombre espacios en _ y sin mayusculas) -p 8+(3 ultimos digitos del codigo):80 -it ubuntu
+
+//actulizar dependencias
+
+apt update
+
+//instalamos apache2
+
+apt install apache2
+
+//instalar nano
+
+apt install nano
+
+//borrar index
+
+rm /var/www/html/index.html
+
+//crear un index con el nano
+
+nano /var/www/html/index.html

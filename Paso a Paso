@@ -18,6 +18,10 @@ apt update
 
 apt install apache2
 
+// Iniciamos apache service
+
+service apache2 start
+
 //instalar nano
 
 apt install nano

@@ -37,3 +37,10 @@ nano /var/www/html/index.html
 //Para abrir nuevamente el contenedor
 
 docker exec -it +(nombre del contenedor) \bash
+
+//para ver todos los contenedores
+docker ps -a
+
+//para ver tododos los docker que estan corriendo
+
+docker ps
